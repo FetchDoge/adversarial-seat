@@ -115,6 +115,8 @@ This note is subject to its own standard. The adversarial seat is falsified — 
 
 Published 2026-09-27. M1 is done (one review with landed charges: intent-spec). M2, the blind two-operator test, has not been run.
 
+Built by Marcus Richards, directing AI coding agents.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
