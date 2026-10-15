@@ -84,7 +84,7 @@ Net: two modifications made, one tripwire set, one load-bearing unknown named in
 
 ## 6. Risks — first, as doctrine requires
 
-- **The adversary shares the estate.** Grok attacking Raven's spec is still one operator's machinery reviewing itself. The blind two-operator test (two independent operators compile the same intent; divergence on authority or scope kills the claim) is the external check, and it has not yet been run. Until it is, every verdict carries the caveat: *attacked, not independently verified.*
+- **The adversary shares the estate.** One AI agent attacking another AI agent's spec is still one operator's machinery reviewing itself. The blind two-operator test (two independent operators compile the same intent; divergence on authority or scope kills the claim) is the external check, and it has not yet been run. Until it is, every verdict carries the caveat: *attacked, not independently verified.*
 - **Adversarial review has false negatives in the other direction.** A good attacker can kill a good idea — the method optimizes for finding flaws, not for valuing the whole. The human gate exists for this reason: the adversary recommends, it does not execute.
 - **Theater risk.** If reviews stop changing artifacts — no modifications, no kills, no tripwires over a run of reviews — the seat has become ceremony. See §8.
 
@@ -114,6 +114,8 @@ This note is subject to its own standard. The adversarial seat is falsified — 
 ## Status
 
 Published 2026-09-27. M1 is done (one review with landed charges: intent-spec). M2, the blind two-operator test, has not been run.
+
+Built by Marcus Richards, directing AI coding agents.
 
 ## License
 
