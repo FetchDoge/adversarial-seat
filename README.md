@@ -2,7 +2,7 @@
 
 **Charters an adversary that must change or kill agent-built work before it ships, with a worked example against IntentSpec v0.1.**
 
-[![Claims integrity](https://github.com/marsojuji-cmyk/adversarial-seat/actions/workflows/claims.yml/badge.svg)](https://github.com/marsojuji-cmyk/adversarial-seat/actions/workflows/claims.yml)
+[![Claims integrity](https://github.com/FetchDoge/adversarial-seat/actions/workflows/claims.yml/badge.svg)](https://github.com/FetchDoge/adversarial-seat/actions/workflows/claims.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 **No adversary, no promotion.** This is a standing red-team **method** for multi-agent workflows, written as a technical note answered against the Heilmeier catechism. The repo contains the method and one worked review. It has no code: the trigger and the lanes live in the operator's workflow, not here.
@@ -26,7 +26,7 @@ These are requirements on the people and agents running the method. Nothing in t
 Check this README's links and paths the way CI does:
 
 ```bash
-git clone https://github.com/marsojuji-cmyk/adversarial-seat && cd adversarial-seat
+git clone https://github.com/FetchDoge/adversarial-seat && cd adversarial-seat
 python3 scripts/check_claims.py
 ```
 
@@ -38,7 +38,7 @@ python3 scripts/check_claims.py
 
 ## Evidence
 
-- **Worked example:** [`ADVERSARIAL-REVIEW.md`](ADVERSARIAL-REVIEW.md). It filed four charges against IntentSpec v0.1, which produced two artifact modifications, one tripwire and one named unknown. The fixes are visible in [intent-spec](https://github.com/marsojuji-cmyk/intent-spec)'s schema (`receipt.handoff_id`, advisory-only routing, string-only `route.reason`) and its revision history.
+- **Worked example:** [`ADVERSARIAL-REVIEW.md`](ADVERSARIAL-REVIEW.md). It filed four charges against IntentSpec v0.1, which produced two artifact modifications, one tripwire and one named unknown. The fixes are visible in [intent-spec](https://github.com/FetchDoge/intent-spec)'s schema (`receipt.handoff_id`, advisory-only routing, string-only `route.reason`) and its revision history.
 - **CI:** `scripts/check_claims.py` runs on every push. It verifies links, paths and secret-shaped strings, not prose truth.
 
 ## 1. What it is
@@ -71,7 +71,7 @@ The hiring-relevant property: publishing your attacker's notes is a claim agains
 
 ## 5. Exercised evidence
 
-**IntentSpec v0.1** (worked example: [`ADVERSARIAL-REVIEW.md`](ADVERSARIAL-REVIEW.md), canonical copy in [intent-spec](https://github.com/marsojuji-cmyk/intent-spec)). Four charges filed:
+**IntentSpec v0.1** (worked example: [`ADVERSARIAL-REVIEW.md`](ADVERSARIAL-REVIEW.md), canonical copy in [intent-spec](https://github.com/FetchDoge/intent-spec)). Four charges filed:
 
 1. *The IR smuggles a hidden second decision point* — survived conditionally. Two schema rules written in (advisory-only routing, no-scores on the reason field). The concession is recorded: judgment still happens; it is now recorded and challengeable instead of hidden.
 2. *The superset-of-handoff claim* — did not fully hold. One fix applied: `receipt.handoff_id` added with an explicit id-mapping rule. The claim now holds under the written rule.
